@@ -130,6 +130,7 @@ label{
         display: flex;
         flex-direction: column;
         align-items: center;
+        position:relative;
     }
 
     .nm{
@@ -151,6 +152,7 @@ label{
         flex-direction: column;
         align-items: center;
         width: 115vw;
+        position:relative;
     }
 
     .nm{

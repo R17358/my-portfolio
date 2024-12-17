@@ -4,10 +4,15 @@
     background-color: #460069e2;
     color: white;
     display: flex;
-    width: 96vw;
+    width: 102vw;
     align-items: center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.leftFooter img{
+  width: 185px;
+  height: 55px;
 }
 
 .leftFooter {
@@ -75,10 +80,9 @@
   color: #eb4034;
 }
 
-@media (max-width:600px){
-  
+
+@media (max-width:915px){
   #footer{
-      flex-direction: column;
-      width:121vw;
+    flex-direction: column;
   }
 }

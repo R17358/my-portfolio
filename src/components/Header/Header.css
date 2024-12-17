@@ -1,6 +1,6 @@
 .header{
     background-color:#460069;
-    width: 95.8vw;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     color: white;
@@ -27,8 +27,9 @@
 .left{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 1065px;
+    width: 81vw;
 }
 
 .left a{
@@ -113,59 +114,9 @@
 label{
     margin: 12px 5px;
 }
-
-@media (max-width:1450px)  and (min-width: 934px){                  /*@media (max-width:1450px)  and (min-width: 934px)*/
+ /*@media (max-width:1450px)  and (min-width: 934px)*/
+ @media (max-width:1481px) {
     .header{
-        display: flex;
-        flex-direction: column;
+        position: relative;
     }
-
-    .nm{
-        font-size: 29px;
-        width: 80vw;
-    }
-}
-@media (max-width:933px) and (min-width:601px){
-    .header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nm{
-        font-size: 29px;
-        width: 80vw;
-    }
-    .left{
-        display: flex;
-        flex-direction: column;
-    }
-    .left a{
-        margin: 6px 109px;
-    }
-}
-
-@media (max-width:600px){
-    .header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 115vw;
-    }
-
-    .nm{
-        font-size: 29px;
-        width: 80vw;
-    }
-    .left{
-        display: flex;
-        flex-direction: column;
-    }
-    .left a{
-        margin: 6px 109px;
-    }
-    #footer{
-        flex-direction: column;
-        width:121vw;
-    }
-}
+ }

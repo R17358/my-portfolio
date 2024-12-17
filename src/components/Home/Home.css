@@ -77,12 +77,14 @@ h2{
 .links{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .links .link{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .link .icon{
@@ -175,11 +177,13 @@ h2{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     flex-direction: row;
     justify-content: space-between;
+    overflow: scroll;
 }
 
 #projects .edu_card{
     height: 42vh;
     font-style: italic;
+    overflow: scroll;
 }
 
 #projects .edu_card button{
@@ -252,4 +256,57 @@ h2{
 
 #experience p{
     text-align: center;
+}
+   
+@media (max-width:914px) {
+    .photo {
+        width: 16vw;
+        height: 24vh;
+        border-radius: 37px;
+    }
+
+    .photo img{
+        width: 18vw;
+        height: 26vh;
+        border-radius: 37px;
+    }
+    .profileSec{
+        display: flex;
+        margin-top: 18px;
+        align-items: center;
+        height: 79vh;
+        flex-direction: column;
+        overflow: overlay;
+    }
+    .box{
+        margin: 19px 27px;
+    }
+    .linkContainer{
+        margin-top: 24px;
+        flex-direction: column;
+    }
+    .edu .edu_card{
+        display: flex;
+        flex-direction: column;
+        height: 29vh;
+    }
+}
+
+@media (min-width:915px) and (max-width:950px) {
+    .box{
+        margin: 19px 27px;
+    }
+    .profileSec{
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 18px;
+        height: 51vh;
+        flex-direction: column;
+    }
+    .profileSec .photo img{
+        width:20vw;
+    }
+    .linkContainer{
+        margin-top: 24px;
+    }
 }

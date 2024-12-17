@@ -1,3 +1,7 @@
+body{
+  margin: 0px 0px;
+}
+
 :root {
   color: rgba(25, 15, 15, 0.87);
   background-color: #ffffff;
@@ -10,6 +14,7 @@
 
 .dark-theme #root{
   background-color: black;
+  width: 111vw;
 }
 
 .dark-theme #root p{
@@ -19,7 +24,7 @@
 .seen #projects .edu_card{
   height: 90vh;
   width: 83vw;
-  transition: all ease 0.4s;
+  transition: all ease 1.5s;
 }
 
 .seen #projects .edu_card .out{
@@ -65,11 +70,4 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-@media (max-width:900px) {
-  .root{
-    width:100%;
-  }
-  
 }

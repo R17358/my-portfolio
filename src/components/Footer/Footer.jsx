@@ -2,6 +2,7 @@ import React from "react";
 import playStore from "./googlePlay.png";
 import appStore from "./appStore.png";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -9,8 +10,8 @@ const Footer = () => {
       <div className="leftFooter">
         <h2>DOWNLOAD OUR APP</h2>
         <p>Download App for Android and IOS mobile phone</p>
-        <img src={playStore} alt="playstore" />
-        <img src={appStore} alt="Appstore" />
+        <Link to="https://play.google.com/store/games?hl=en"><img src={playStore} alt="playstore" /></Link>
+        <Link to="https://www.apple.com/in/app-store/"><img src={appStore} alt="Appstore" /></Link>
       </div>
 
       <div className="midFooter">

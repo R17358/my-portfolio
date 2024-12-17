@@ -177,7 +177,7 @@ These interests fuel my creativity and curiosity,
              </div>
              <div className="right_edu_card">
               <div className="marks">
-                <h3>CGPA: 7.95/10</h3>
+                <h3>CGPA: 8.77/10</h3>
               </div>
               <div className="location">
                 <h5>Navi Mumbai</h5>

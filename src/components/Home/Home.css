@@ -180,10 +180,20 @@ h2{
     overflow: scroll;
 }
 
+.edu_card::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+
 #projects .edu_card{
     height: 42vh;
     font-style: italic;
     overflow: scroll;
+}
+
+#projects .edu_card::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
 }
 
 #projects .edu_card button{

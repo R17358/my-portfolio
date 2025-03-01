@@ -47,6 +47,9 @@ import draw17 from '../Home/YT Images/spiderman.webp'
 import draw18 from '../Home/YT Images/Tom Jerry.webp'
 import draw19 from '../Home/YT Images/sandeep.jpg'
 
+import SOEN1 from '../Home/SOEN1.png'
+import SOEN2 from '../Home/SOEN2.png'
+
 
 function Home() {
 
@@ -299,6 +302,7 @@ These interests fuel my creativity and curiosity,
         <div id="projects" className="heading">
           <h1>Projects</h1><hr />
           <div className="edu">
+
             <div className="edu_card">
              <div className="left_edu_card">
               <div className="course">
@@ -329,6 +333,46 @@ These interests fuel my creativity and curiosity,
              <div className="right_edu_card">
               <div className="marks">
                 <Link to="https://github.com/R17358/PageInsighter"><img src={github} alt="github" /></Link>
+                <Link to="https://text-visualizer-deploy.onrender.com/">visit</Link>
+              </div>
+              <div>
+                <button onClick={seeOutput}>See Output</button>
+              </div>
+             </div>
+            </div>
+
+            <div className="edu_card">
+             <div className="left_edu_card">
+              <div className="course">
+                <h3>Nirmiti: AI Software Developer</h3>
+              </div>
+              <div className="college">
+                <h5>Developed an AI-powered web application that generates complete project code, including file structure and build instructions, based on user prompts.
+                </h5>
+                <ul>
+                  <li><b>Objective:</b> generates complete project code, including file structure and build instructions, based on user prompts.
+                  Implemented collaboration tools, including real-time chat for communication between developers and AI chatbot assistance.
+                  Integrated copy, edit, and auto-save features, allowing users to modify code and store changes in a database.
+                  Added authentication (signup/login) and role-based access for managing collaborators.
+                  </li>
+                  <li><b>Technologies:</b>React.js, Redux, Node.js, Express, MongoDB, WebSockets, AI Integration, Git & Github </li>
+                  <li><b>Achievements:</b> <ul>
+                    <li>Learn about WebSockets</li>
+                    <li>Learn to parse JSON data by API responses</li>
+                    <li>Learnt To Integrate APIs and AI models</li>
+                    <li>Enhaced Dynamic UI building with React</li>
+                    </ul> </li>
+                </ul>
+                {see?<div className="out">
+                  <img src={SOEN1}/>
+                <img src={SOEN2} />
+                </div>:<br/>}
+              </div>
+             </div>
+             <div className="right_edu_card">
+              <div className="marks">
+                <Link to="https://github.com/R17358/SOEN-AI-Software-Developer"><img src={github} alt="github" /></Link>
+                <Link to="https://soen-ai-software-developer.vercel.app/">visit</Link>
               </div>
               <div>
                 <button onClick={seeOutput}>See Output</button>
@@ -400,6 +444,7 @@ These interests fuel my creativity and curiosity,
              <div className="right_edu_card">
               <div className="marks">
                 <Link to="https://github.com/R17358/my-E-shop-Web/tree/master"><img src={github} alt="github" /></Link>
+                <Link to="https://my-e-shop-web-frontend.vercel.app/">visit</Link>
               </div>
               <div>
                 <button onClick={seeOutput}>See Output</button>

@@ -17,6 +17,16 @@ body{
   width: 111vw;
 }
 
+#root::-webkit-scrollbar{
+  display: none;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+  scroll-behavior: smooth;
+}
+
 .dark-theme #root p{
   color: white;
 }

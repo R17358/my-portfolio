@@ -164,7 +164,7 @@ h2{
 
 .dark-theme .edu_card:hover{
     background-color: rgb(10, 255, 169);
-    transition: all ease 0.5s;
+    transition: all ease 0.5s;   
 }
 
 .edu_card{

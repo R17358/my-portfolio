@@ -20,7 +20,6 @@ This is a **React.js-based portfolio web application** designed to showcase proj
 | **Framer Motion** | Smooth animations |
 | **Email.js** | Contact form handling |
 | **React Router** | Navigation |
-| **Firebase / Backend API** | (Optional) Project hosting or contact form backend |
 
 ## Installation
 
@@ -31,7 +30,7 @@ This is a **React.js-based portfolio web application** designed to showcase proj
 ### Setup
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/R17358/my-portfolio.git
    cd portfolio
    ```
 

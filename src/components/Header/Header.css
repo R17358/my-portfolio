@@ -187,6 +187,8 @@ label {
     .header{
         width: 92vw;
         position: relative;
+        display: flex;
+        flex-direction: column;
     }
     .nm {
         font-size: 29px;

@@ -186,5 +186,10 @@ label {
 @media (max-width:415px) {
     .header{
         width: 92vw;
+        position: relative;
+    }
+    .nm {
+        font-size: 29px;
+        width: 80vw;
     }
 }

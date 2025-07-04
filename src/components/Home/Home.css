@@ -1,0 +1,342 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+.box {
+    margin: 1vw 1vh;
+}
+
+.box h1 {
+    text-align: center;
+    color: brown;
+    padding-top: 108px;
+    font-family: math;
+}
+
+.container .heading h1 {
+    padding-top: 65px;
+    text-align: left;
+    font-family: algerian;
+}
+
+.container .heading {
+    width: 82vw;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#welcome {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.profileSec {
+    padding: 21px 25px;
+    border-radius: 15px;
+    width: 80vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    font-style: italic;
+}
+
+#intro {
+    font-style: italic;
+}
+
+h2 {
+    font-family: serif;
+    text-align: center;
+    color: darkturquoise;
+}
+
+.dark-theme .profileSec {
+    background-color: #4c1010;
+}
+
+.dark-theme .profileSec:hover {
+    background-color: #66281a;
+}
+
+.profileSec:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.photo {
+    width: 10vw;
+    height: 24vh;
+    border-radius: 37px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.links .link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.link .icon {
+    width: 29px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+#github {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.link .url {
+    height: 6vh;
+    font-weight: 500;
+    margin-top: 3px;
+    border-radius: 18px;
+    margin-left: 11px;
+    text-align: left;
+}
+
+.link .url a {
+    color: #5b36ab;
+    text-decoration: none;
+}
+
+.link .url a:hover {
+    color: red;
+}
+
+.link .icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.link .icon #gmail {
+    width: 27px;
+    height: 27px;
+}
+
+.link .icon #ninja {
+    border-radius: 12px;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.photo img {
+    width: 10vw;
+    height: 24vh;
+    border-radius: 37px;
+}
+
+.edu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.edu h3,
+h5 {
+    text-align: center;
+    color: brown;
+    margin: 9px 2px;
+    font-style: italic;
+}
+
+.dark-theme .edu_card {
+    background-color: aliceblue;
+}
+
+.dark-theme .edu_card:hover {
+    background-color: rgb(10, 255, 169);
+    transition: all ease 0.5s;
+}
+
+.edu_card {
+    width: 80vw;
+    height: 14vh;
+    border-radius: 37px;
+    padding: 17px 25px;
+    display: flex;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.edu_card::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+#projects .edu_card {
+    height: 42vh;
+    font-style: italic;
+    overflow: scroll;
+}
+
+#projects .edu_card::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+#projects .edu_card button {
+    padding: 4px 1px;
+    border-radius: 23px;
+    background-color: #af94e9;
+}
+
+#projects .edu_card .button:hover {
+    background-color: #66281a;
+}
+
+#projects .edu_card .college {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects .btn button {
+    padding: 14px 38px;
+    border-radius: 23px;
+    background-color: #570808;
+    color: aliceblue;
+    font-size: large;
+}
+
+.edu_card:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.left_edu_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.right_edu_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.skillContainer .subcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: 100vw; */
+    width: 80vw;
+}
+
+.dark-theme .skillContainer h4 {
+    color: cyan;
+}
+
+.dark-theme .skillContainer .subcontainer .skill {
+    background-color: cyan;
+}
+
+.dark-theme .skillContainer .subcontainer .skill:hover {
+    background-color: #0eceffeb;
+}
+
+.skillContainer .subcontainer .skill {
+    padding: 5px 20px;
+    height: 33px;
+    width: 130px;
+    border-radius: 12px;
+    border: 2px solid midnightblue;
+    margin: 1.5px 1.5px;
+}
+
+.skill:hover {
+    background-color: #00ffd9;
+    transition: all ease-in-out 0.8s;
+}
+
+#experience p {
+    text-align: center;
+}
+
+@media (max-width:645px) {
+    .photo {
+        width: 36vw;
+        height: 23vh;
+        border-radius: 37px;
+    }
+
+    .photo img {
+        width: 35vw;
+        height: 25vh;
+        border-radius: 37px;
+    }
+
+    .profileSec {
+        display: flex;
+        margin-top: 18px;
+        align-items: center;
+        height: 77vh;
+        width: 78vw;
+        flex-direction: column;
+        overflow: overlay;
+    }
+
+    .box {
+        margin: 19px 27px;
+    }
+
+    .linkContainer {
+        margin-top: 24px;
+        flex-direction: column;
+        width: 94vw;
+    }
+
+    .edu .edu_card {
+        display: flex;
+        flex-direction: column;
+        height: 29vh;
+    }
+
+    .dark-theme #root {
+        width: 101vw;
+    }
+
+}
+
+@media (min-width:650px) and (max-width:950px) {
+    .box {
+        margin: 19px 27px;
+    }
+
+    .profileSec {
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 18px;
+        height: 51vh;
+        flex-direction: column;
+    }
+
+    .profileSec .photo img {
+        width: 20vw;
+    }
+
+    .linkContainer {
+        margin-top: 24px;
+    }
+}

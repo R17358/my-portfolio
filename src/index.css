@@ -1,0 +1,83 @@
+body{
+  margin: 0px 0px;
+}
+
+:root {
+  color: rgba(25, 15, 15, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dark-theme #root{
+  background-color: black;
+  width: 100vw;
+}
+
+#root::-webkit-scrollbar{
+  display: none;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+  scroll-behavior: smooth;
+}
+
+.dark-theme #root p{
+  color: white;
+}
+
+.seen #projects .edu_card{
+  height: 90vh;
+  width: 83vw;
+  transition: all ease 1.5s;
+}
+
+.seen #projects .edu_card .out{
+  display: flex;
+  flex-direction: row;
+  transition: all ease 2s;
+}
+
+.seen #projects .edu_card .out img{
+  width: 40vw;
+  height: 47vh;
+  border-radius: 31px;
+  margin-right:3px;
+}
+
+.dark-theme .box h1{
+  color: #73e259;
+}
+
+.dark-theme #header{
+  background-color: rgb(255 0 0);
+}
+
+.dark-theme .left a{
+  background-color: #5b0505;
+}
+
+.dark-theme #footer{
+  background-color:rgba(255, 0, 0, 0.84);
+}
+
+.dark-theme #theme{
+  background-image: url('/src/components/Header/sun.png');
+}
+
+.dark-theme .link .url a{
+  color: #00e500;
+}
+
+.dark-theme .link .url a:hover{
+  color: pink;
+}
+
+html {
+  scroll-behavior: smooth;
+}

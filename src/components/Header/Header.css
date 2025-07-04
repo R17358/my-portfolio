@@ -154,7 +154,7 @@ label {
     }
 }
 
-@media (max-width:650px) {
+@media (max-width:650px) and (min-width:416px) {
     .header {
         display: flex;
         flex-direction: column;
@@ -180,5 +180,11 @@ label {
     #footer {
         flex-direction: column;
         width: 121vw;
+    }
+}
+
+@media (max-width:415px) {
+    .header{
+        width: 92vw;
     }
 }

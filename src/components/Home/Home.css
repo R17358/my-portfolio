@@ -151,6 +151,7 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
     margin-top: 33px;
+    align-items: center;
 }
 
 .edu h3,

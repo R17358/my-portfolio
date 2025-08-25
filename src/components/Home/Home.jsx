@@ -86,7 +86,12 @@ function Home() {
                       <img src={linkedIn} alt="LinkedIn" width />
                     </div>
                     <div className="url">
-                      <Link to="https://www.linkedin.com/in/ritesh-pandit-408557269">ritesh-pandit-408557269</Link>
+                      <a
+                        href="https://www.linkedin.com/in/ritesh-pandit-408557269"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        ritesh-pandit-408557269</a>
                     </div>
                   </div>
                   <div className="link">
@@ -94,15 +99,22 @@ function Home() {
                       <img src={phone} alt="phone" />
                     </div>
                     <div className="url">
-                      <Link to="/">+91 8692018519</Link>
+                      <a href="tel:+918692018519">+91 8692018519</a>
                     </div>
+
                   </div>
                   <div className="link">
                     <div className="icon">
                       <img src={gmail} id="gmail" alt="Gmail" />
                     </div>
                     <div className="url">
-                      <Link to="https://mail.google.com">karanstdio1234@gmail.com</Link>
+                      <a
+                        href="https://mail.google.com/mail/?view=cm&to=ritesh.pandit.lfc@gmail.com&body=Hi%20Ritesh"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        ritesh.pandit.lfc@gmail.com
+                      </a>
                     </div>
                   </div>
                   <div className="link">
@@ -110,7 +122,12 @@ function Home() {
                       <img src={github} alt="Github" />
                     </div>
                     <div className="url">
-                      <Link to="https://github.com/R17358">github.com/R17358</Link>
+                      <a
+                        href="https://github.com/R17358"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        github.com/R17358</a>
                     </div>
                   </div>
                 </div>
@@ -122,7 +139,12 @@ function Home() {
                       <img src={gfg} alt="geekforgeeks" width />
                     </div>
                     <div className="url">
-                      <Link to="https://www.geeksforgeeks.org/user/karanstdkjrv/">geekforgeeks-karanstdkjrv</Link>
+                      <a
+                        href="https://www.geeksforgeeks.org/user/karanstdkjrv/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        geekforgeeks-karanstdkjrv</a>
                     </div>
                   </div>
                   <div className="link">
@@ -130,7 +152,12 @@ function Home() {
                       <img src={leetcode} alt="Leetcode" />
                     </div>
                     <div className="url">
-                      <Link to="https://leetcode.com/u/Ritesh_0000/">Leetcode-Ritesh_0000</Link>
+                      <a
+                        href="https://leetcode.com/u/Ritesh_0000/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Leetcode-Ritesh_0000</a>
                     </div>
                   </div>
                   <div className="link">
@@ -138,7 +165,12 @@ function Home() {
                       <img src={ninja} id="ninja" alt="codingNinja" />
                     </div>
                     <div className="url">
-                      <Link to="https://www.naukri.com/code360/profile/Ritesh5484">coding-ninjas-Ritesh5484</Link>
+                      <a
+                        href="https://www.naukri.com/code360/profile/Ritesh5484"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        coding-ninjas-Ritesh5484</a>
                     </div>
                   </div>
                   <div className="link">
@@ -146,24 +178,26 @@ function Home() {
                       <img src={youtube} alt="YouTube" />
                     </div>
                     <div className="url">
-                      <Link to="https://www.youtube.com/@shivay984">@shivay984</Link>
+                      <a
+                        href="https://www.youtube.com/@shivay984"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        @shivay984</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <p id='intro'><span id='welcome'>"Welcome, I’m Ritesh Gangadhar Pandit</span>, a Computer Science Engineering student with a passion for building efficient and
-            impactful solutions through technology. With a solid foundation in Data Structures and Algorithms (DSA) and
-            Full-stack development. My objective is to leverage my skills in software development,
-            problem-solving, and creativity to develop user-centered solutions that make a meaningful impact.
-            I aspire to work on projects where I can blend cutting-edge technologies like AI and Web Development
-            to solve complex challenges efficiently.Ultimately, my vision is to
-            contribute to innovative projects that not only push the boundaries of technology but also prioritize user experience and accessibility. I aim to keep growing both as a developer and a creative thinker, and to stay at the forefront of technology through continuous learning and hands-on experience.
-            Beyond tech, I’m also a teacher, painter, and lifelong learner.
-            These interests fuel my creativity and curiosity,
-            allowing me to approach challenges from unique perspectives and continuously expand my skill set.
-            I'm always eager to learn, innovate, and contribute to projects that make a positive impact."</p>
+          <p id='intro'><span id='welcome'>"Welcome, I’m Ritesh Gangadhar Pandit</span>,
+            a passionate <b>AI/ML and Full-Stack Developer</b> with expertise in <b>MERN stack (MongoDB, Express.js, React.js, Node.js), Python,
+            and cutting-edge AI technologies</b>. I specialize in building scalable, AI-powered web applications, computer vision solutions,
+            and data-driven platforms, leveraging tools like CNN, GAN, Transformers, RESTful APIs, and Webhooks to deliver production-ready projects.
+            With a strong foundation in Data Structures & Algorithms and a constant drive for optimization, I blend creativity with problem-solving
+            to craft user-focused, high-performance solutions.
+            I’m a lifelong learner who thrives on innovation—whether it’s developing full-stack platforms, integrating AI models, or exploring new tech trends. Beyond tech, my interests in teaching, art, and continuous exploration fuel unique perspectives, helping me approach challenges with both logic and creativity. My goal is to keep pushing the boundaries of technology while ensuring accessibility, usability, and real-world impact.
+            "</p>
           <h2>"Impossible = I'm Possible"</h2>
         </div>
         <div id="education" className="heading">
@@ -175,12 +209,12 @@ function Home() {
                   <h3>BE in Computer Science & Engineering(Data Science)</h3>
                 </div>
                 <div className="college">
-                  <h5>Lokmanya Tilak College of Engineering</h5>
+                  <h5>Lokmanya Tilak College of Engineering (University of Mumbai)</h5>
                 </div>
               </div>
               <div className="right_edu_card">
                 <div className="marks">
-                  <h3>CGPA: 8.77/10</h3>
+                  <h3>CGPA: 8.19/10</h3>
                 </div>
                 <div className="location">
                   <h5>Navi Mumbai</h5>
@@ -210,61 +244,177 @@ function Home() {
         <div id="skills" className="heading">
           <h1>Skills</h1><hr />
           <div className="skillContainer">
-            <h4>Technologies & Tools</h4>
-            <div className="subcontainer">
-              <div className="skill">
-                <h5>DSA</h5>
-              </div>
-              <div className="skill">
-                <h5>React.js</h5>
-              </div>
-              <div className="skill">
-                <h5>OpenCV</h5>
-              </div>
-              <div className="skill">
-                <h5>Streamlit</h5>
-              </div>
-              <div className="skill">
-                <h5>HTML-CSS</h5>
-              </div>
-              <div className="skill">
-                <h5>Web Scrapping</h5>
-              </div>
-              <div className="skill">
-                <h5>Numpy</h5>
-              </div>
-              <div className="skill">
-                <h5>Pandas</h5>
-              </div>
-              <div className="skill">
-                <h5>Windows</h5>
-              </div>
-              <div className="skill">
-                <h5>Ubuntu</h5>
-              </div>
-            </div>
+
             <h4>Programming Languages</h4>
             <div className="subcontainer">
               <div className="skill">
                 <h5>C++</h5>
               </div>
               <div className="skill">
+                <h5>Java</h5>
+              </div>
+              <div className="skill">
                 <h5>Python</h5>
               </div>
               <div className="skill">
-                <h5>JavaScript</h5>
+                <h5>JavaScript (ES6+)</h5>
+              </div>
+              <div className="skill">
+                <h5>SQL</h5>
+              </div>
+            </div>
+
+            <h4>Frontend</h4>
+            <div className="subcontainer">
+              <div className="skill">
+                <h5>React.Js</h5>
+              </div>
+              <div className="skill">
+                <h5>React Redux</h5>
+              </div>
+              <div className="skill">
+                <h5>React Native</h5>
+              </div>
+              <div className="skill">
+                <h5>HTML5</h5>
+              </div>
+              <div className="skill">
+                <h5>CSS3</h5>
+              </div>
+              <div className="skill">
+                <h5>Tailwind CSS</h5>
+              </div>
+              <div className="skill">
+                <h5>Javascript</h5>
+              </div>
+              <div className="skill">
+                <h5>Typescript</h5>
+              </div>
+              <div className="skill">
+                <h5>Responsive design</h5>
+              </div>
+              <div className="skill">
+                <h5>UI/UX Principles</h5>
+              </div>
+
+            </div>
+
+
+            <h4>Backend</h4>
+            <div className="subcontainer">
+              <div className="skill">
+                <h5>Node.Js</h5>
+              </div>
+              <div className="skill">
+                <h5>Express.js</h5>
+              </div>
+              <div className="skill">
+                <h5>RESTful APIs</h5>
+              </div>
+              <div className="skill">
+                <h5>JWT Authentication</h5>
+              </div>
+              <div className="skill">
+                <h5>MongoDB</h5>
               </div>
               <div className="skill">
                 <h5>MySQL</h5>
               </div>
+              <div className="skill">
+                <h5>CRUD Operations</h5>
+              </div>
+              <div className="skill">
+                <h5>API Development</h5>
+              </div>
+              <div className="skill">
+                <h5>JSON parsing</h5>
+              </div>
             </div>
+
+            <h4>Tools & Platforms</h4>
+            <div className="subcontainer">
+              <div className="skill">
+                <h5>Git</h5>
+              </div>
+              <div className="skill">
+                <h5>Github</h5>
+              </div>
+              <div className="skill">
+                <h5>Postman</h5>
+              </div>
+              <div className="skill">
+                <h5>thunderClient</h5>
+              </div>
+              <div className="skill">
+                <h5>VS code</h5>
+              </div>
+              <div className="skill">
+                <h5>cursorAI</h5>
+              </div>
+              <div className="skill">
+                <h5>Windows</h5>
+              </div>
+              <div className="skill">
+                <h5>Linux</h5>
+              </div>
+              <div className="skill">
+                <h5>Cloudinary</h5>
+              </div>
+              <div className="skill">
+                <h5>Vercel</h5>
+              </div>
+              <div className="skill">
+                <h5>Render</h5>
+              </div>
+              <div className="skill">
+                <h5>Generative AI</h5>
+              </div>
+            </div>
+
+            <h4>Python and AI centric Technologies & Tools</h4>
+            <div className="subcontainer">
+              <div className="skill" style={{ width: "12vw" }}>
+                <h5>OpenCV (Computer vision)</h5>
+              </div>
+              <div className="skill">
+                <h5>numpy</h5>
+              </div>
+              <div className="skill">
+                <h5>pandas</h5>
+              </div>
+              <div className="skill">
+                <h5>Streamlit</h5>
+              </div>
+              <div className="skill">
+                <h5>matplotlib</h5>
+              </div>
+              <div className="skill">
+                <h5>CNN</h5>
+              </div>
+              <div className="skill">
+                <h5>GAN</h5>
+              </div>
+              <div className="skill" style={{ width: "15vw" }}>
+                <h5>Pretrained Models(Yolo V5, LLMs)</h5>
+              </div>
+              <div className="skill" style={{ width: "12vw" }}>
+                <h5>AI model integration</h5>
+              </div>
+            </div>
+
             <h4>Course Work</h4>
             <div className="subcontainer">
+              <div className="skill">
+                <h5>DSA (C++, Java)</h5>
+              </div>
               <div className="skill">
                 <h5>OOPS</h5>
               </div>
               <div className="skill">
-                <h5>Git & GitHub</h5>
+                <h5>Git</h5>
+              </div>
+              <div className="skill">
+                <h5>GitHub</h5>
               </div>
               <div className="skill">
                 <h5>AI-ML-DL</h5>
@@ -290,11 +440,14 @@ function Home() {
               <div className="skill">
                 <h5>Learning Attitude</h5>
               </div>
-              <div className="skill">
-                <h5>Time Management</h5>
+              <div className="skill" style={{ width: '12vw' }}>
+                <h5>Agile Project Management</h5>
               </div>
               <div className="skill">
                 <h5>Proactive</h5>
+              </div>
+              <div className="skill">
+                <h5>Analytical Thinking</h5>
               </div>
             </div>
           </div>
@@ -332,8 +485,14 @@ function Home() {
               </div>
               <div className="right_edu_card">
                 <div className="marks">
-                  <Link to="https://github.com/R17358/PageInsighter"><img src={github} alt="github" /></Link>
-                  <Link to="https://text-visualizer-deploy.onrender.com/">visit</Link>
+                  <a
+                    href="https://github.com/R17358/PageInsighter"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={github} alt="github" />
+                  </a>
+
                 </div>
                 <div>
                   <button onClick={seeOutput}>See Output</button>
@@ -371,8 +530,22 @@ function Home() {
               </div>
               <div className="right_edu_card">
                 <div className="marks">
-                  <Link to="https://github.com/R17358/SOEN-AI-Software-Developer"><img src={github} alt="github" /></Link>
-                  <Link to="https://soen-ai-software-developer.vercel.app/">visit</Link>
+                  <a
+                    href="https://github.com/R17358/SOEN-AI-Software-Developer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={github} alt="github" />
+                  </a>
+
+                  <a
+                    href="https://nirmiti.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    visit
+                  </a>
+
                 </div>
                 <div>
                   <button onClick={seeOutput}>See Output</button>
@@ -408,7 +581,14 @@ function Home() {
               </div>
               <div className="right_edu_card">
                 <div className="marks">
-                  <Link to="https://github.com/R17358/AI-Desktop-Assistant-streamlit"><img src={github} alt="github" /></Link>
+                  <a
+                    href="https://github.com/R17358/AI-Desktop-Assistant-streamlit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={github} alt="github" />
+                  </a>
+
                 </div>
                 <div>
                   <button onClick={seeOutput}>See Output</button>
@@ -443,8 +623,22 @@ function Home() {
               </div>
               <div className="right_edu_card">
                 <div className="marks">
-                  <Link to="https://github.com/R17358/my-E-shop-Web/tree/master"><img src={github} alt="github" /></Link>
-                  <Link to="https://my-e-shop-web-frontend.vercel.app/">visit</Link>
+                  <a
+                    href="https://github.com/R17358/my-E-shop-Web/tree/master"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={github} alt="github" />
+                  </a>
+
+                  <a
+                    href="https://hindustan-zone.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    visit
+                  </a>
+
                 </div>
                 <div>
                   <button onClick={seeOutput}>See Output</button>
@@ -480,7 +674,12 @@ function Home() {
               </div>
               <div className="right_edu_card">
                 <div className="marks">
-                  <Link to="https://github.com/R17358/MediVisual"><img src={github} alt="github" /></Link>
+                  <a
+                    href="https://github.com/R17358/MediVisual"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  ><img src={github} alt="github" /></a>
+
                 </div>
                 <div>
                   <button onClick={seeOutput}>See Output</button>
@@ -547,7 +746,12 @@ function Home() {
                 </div>
                 <div className="right_edu_card">
                   <div className="marks">
-                    <Link to="https://github.com/R17358/House-price-predictor"><img src={github} alt="github" /></Link>
+                    <a
+                      href="https://github.com/R17358/House-price-predictor"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    ><img src={github} alt="github" /></a>
+
                   </div>
                   <div>
                     <button onClick={seeOutput}>See Output</button>
@@ -582,7 +786,12 @@ function Home() {
                 </div>
                 <div className="right_edu_card">
                   <div className="marks">
-                    <Link to="https://github.com/R17358/Chat_analyzer"><img src={github} alt="github" /></Link>
+                    <a
+                      href="https://github.com/R17358/Chat_analyzer"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    ><img src={github} alt="github" /></a>
+
                   </div>
                   <div>
                     <button onClick={seeOutput}>See Output</button>
@@ -590,36 +799,6 @@ function Home() {
                 </div>
               </div>
 
-              <div className="edu_card">
-                <div className="left_edu_card">
-                  <div className="course">
-                    <h3>Guess Number Game</h3>
-                  </div>
-                  <div className="college">
-                    <h5>Basic Game using HTML,CSS and JavaScript
-                    </h5>
-                    <ul>
-                      <li><b>Objective:</b> For Entertainment
-                      </li>
-                      <li><b>Technologies:</b> HTML, CSS , JavaScript</li>
-                      <li><b>Achievements:</b> <ul>
-                        <li>JavaScript</li>
-                      </ul> </li>
-                    </ul>
-                    {see ? <div className="out">
-                      <img src={guess} />
-                    </div> : <br />}
-                  </div>
-                </div>
-                <div className="right_edu_card">
-                  <div className="marks">
-                    <Link to="https://github.com/R17358/Guess_no_game"><img src={github} alt="github" /></Link>
-                  </div>
-                  <div>
-                    <button onClick={seeOutput}>See Output</button>
-                  </div>
-                </div>
-              </div>
 
               <div className="edu_card">
                 <div className="left_edu_card">
@@ -645,7 +824,12 @@ function Home() {
                 </div>
                 <div className="right_edu_card">
                   <div className="marks">
-                    <Link to="https://github.com/R17358/AI_Coin_Counter"><img src={github} alt="github" /></Link>
+                    <a
+                      href="https://github.com/R17358/AI_Coin_Counter"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    ><img src={github} alt="github" /></a>
+
                   </div>
                   <div>
                     <button onClick={seeOutput}>See Output</button>
@@ -658,7 +842,7 @@ function Home() {
 
           </div>
           <div className="btn">
-            <button onClick={fun_more}>more projects</button>
+            <button onClick={fun_more} style={{cursor:"pointer"}}>{more ? "less projects" : "more projects"}</button>
           </div>
         </div>
 

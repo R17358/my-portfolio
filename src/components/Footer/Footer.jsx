@@ -9,9 +9,9 @@ const Footer = () => {
     <footer id="footer">
       <div className="leftFooter">
         <h2>DOWNLOAD OUR APP</h2>
-        <p>Download App for Android and IOS mobile phone</p>
-        <Link to="https://play.google.com/store/games?hl=en"><img src={playStore} alt="playstore" /></Link>
-        <Link to="https://www.apple.com/in/app-store/"><img src={appStore} alt="Appstore" /></Link>
+        <p>We will soon publish apps ....</p>
+        <a target="_blank" href="http://play.google.com/store/games?hl=en"><img src={playStore} alt="playstore" /></a>
+        <a target="_blank" href="http://www.apple.com/in/app-store/"><img src={appStore} alt="Appstore" /></a>
       </div>
 
       <div className="midFooter">
@@ -23,9 +23,9 @@ const Footer = () => {
 
       <div className="rightFooter">
         <h4>Follow Us</h4>
-        <a href="http://instagram.com/">Instagram</a>
-        <a href="https://studio.youtube.com/channel/UC3jrErO58aI4kiCER_cn5IQ/videos">Youtube</a>
-        <a href="http://instagram.com/">Facebook</a>
+        <a target="_blank" href="http://instagram.com/">Instagram</a>
+        <a target="_blank" href="https://www.youtube.com">Youtube</a>
+        <a target="_blank" href="https://www.facebook.com/">Facebook</a>
       </div>
     </footer>
   );

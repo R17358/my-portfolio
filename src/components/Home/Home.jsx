@@ -400,6 +400,12 @@ function Home() {
               <div className="skill" style={{ width: "12vw" }}>
                 <h5>AI model integration</h5>
               </div>
+              <div className="skill" style={{ width: "12vw" }}>
+                <h5>Kaggle</h5>
+              </div>
+              <div className="skill" style={{ width: "12vw" }}>
+                <h5>Huggingface</h5>
+              </div>
             </div>
 
             <h4>Course Work</h4>

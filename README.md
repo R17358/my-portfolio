@@ -1,6 +1,6 @@
 # Portfolio Web Application
 
-Live: https://my-portfolio-zeta-snowy-64.vercel.app/
+Live: https://ritesh-portfolio-in.vercel.app
 
 
 ## Overview

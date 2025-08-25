@@ -377,6 +377,9 @@ function Home() {
                 <h5>OpenCV (Computer vision)</h5>
               </div>
               <div className="skill">
+                <h5>Flask</h5>
+              </div>
+              <div className="skill">
                 <h5>numpy</h5>
               </div>
               <div className="skill">

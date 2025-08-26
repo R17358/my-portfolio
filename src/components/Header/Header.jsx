@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Header.css";
 import { HashLink as Link } from 'react-router-hash-link';
+import download from './download.png'
 
 function Header() {
   const [isDark, setIsDark] = useState(false);
@@ -21,7 +22,7 @@ function Header() {
 
   return (
     <div className="header" id='header'>
-      <div className="nm">Portfolio</div>
+
       <div className="left" id='left'>
         <Link to="/#intro">Introduction</Link>
         <Link to="/#education">Education</Link>
@@ -29,6 +30,8 @@ function Header() {
         <Link to="/#projects">Projects</Link>
         <Link to="/#hobbies">Hobbies</Link>
         <Link to="/#experience">Experience</Link>
+        <Link to="/#resume">Resumes <i className="bx bxs-download"></i>
+        </Link>
       </div>
       <div className="right">
         <button id='theme' onClick={changeTheme}></button>

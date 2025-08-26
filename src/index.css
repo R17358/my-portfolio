@@ -78,6 +78,10 @@ body::-webkit-scrollbar{
   color: pink;
 }
 
+.dark-theme .resumeTitle{
+    color: white;
+}
+
 html {
   scroll-behavior: smooth;
 }

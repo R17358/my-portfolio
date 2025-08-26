@@ -49,6 +49,7 @@ import draw19 from '../Home/YT Images/sandeep.jpg'
 
 import SOEN1 from '../Home/SOEN1.png'
 import SOEN2 from '../Home/SOEN2.png'
+import Resume from '../resumes/Resume'
 
 
 function Home() {
@@ -853,6 +854,11 @@ function Home() {
           <div className="btn">
             <button onClick={fun_more} style={{cursor:"pointer"}}>{more ? "less projects" : "more projects"}</button>
           </div>
+        </div>
+        
+        <div id="resume" className='heading'>
+          <h1>My Resumes</h1>  
+          <Resume />
         </div>
 
         <div id="hobbies" className="heading">

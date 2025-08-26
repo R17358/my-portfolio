@@ -193,7 +193,7 @@ function Home() {
           </div>
           <p id='intro'><span id='welcome'>"Welcome, I’m Ritesh Gangadhar Pandit</span>,
             a passionate <b>AI/ML and Full-Stack Developer</b> with expertise in <b>MERN stack (MongoDB, Express.js, React.js, Node.js), Python,
-            and cutting-edge AI technologies</b>. I specialize in building scalable, AI-powered web applications, computer vision solutions,
+              and cutting-edge AI technologies</b>. I specialize in building scalable, AI-powered web applications, computer vision solutions,
             and data-driven platforms, leveraging tools like CNN, GAN, Transformers, RESTful APIs, and Webhooks to deliver production-ready projects.
             With a strong foundation in Data Structures & Algorithms and a constant drive for optimization, I blend creativity with problem-solving
             to craft user-focused, high-performance solutions.
@@ -523,13 +523,17 @@ function Home() {
                       Implemented collaboration tools, including real-time chat for communication between developers and AI chatbot assistance.
                       Integrated copy, edit, and auto-save features, allowing users to modify code and store changes in a database.
                       Added authentication (signup/login) and role-based access for managing collaborators.
+                      It is also in form of Mobile application using react native at  <a target='_blank' href='https://github.com/R17358/Nirmiti-react-native-app'>Nirmiti app github</a>
                     </li>
-                    <li><b>Technologies:</b>React.js, Redux, Node.js, Express, MongoDB, WebSockets, AI Integration, Git & Github </li>
-                    <li><b>Achievements:</b> <ul>
+                    <li><b>Technologies:</b>React.js, React Native, Redux, Node.js, Express, MongoDB, WebSockets, AI Integration, Git & Github </li>
+                    <li><b>Achievements:</b> 
+                    <ul>
                       <li>Learn about WebSockets</li>
                       <li>Learn to parse JSON data by API responses</li>
                       <li>Learnt To Integrate APIs and AI models</li>
                       <li>Enhaced Dynamic UI building with React</li>
+                      <li>Implemented Web as well as Mobile app development</li>
+                      <li>Learnt to deploy application on render, vercel and playstore</li>
                     </ul> </li>
                   </ul>
                   {see ? <div className="out">
@@ -852,12 +856,12 @@ function Home() {
 
           </div>
           <div className="btn">
-            <button onClick={fun_more} style={{cursor:"pointer"}}>{more ? "less projects" : "more projects"}</button>
+            <button onClick={fun_more} style={{ cursor: "pointer" }}>{more ? "less projects" : "more projects"}</button>
           </div>
         </div>
-        
+
         <div id="resume" className='heading'>
-          <h1>My Resumes</h1>  
+          <h1>My Resumes</h1>
           <Resume />
         </div>
 

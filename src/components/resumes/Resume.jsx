@@ -1,6 +1,7 @@
 import React from "react";
-import ai_resume from "./AIML_Ritesh_Pandit_Resume_updated.pdf";
-import full_stack_resume from "./Full_stack_Ritesh_Pandit_Resume.pdf";
+import ai_resume from "./AI_ML.pdf";
+import full_stack_resume from "./Full_stack.pdf";
+import mobile from "./Mobile_dev.pdf";
 
 const Resume = () => {
   const resumes = [
@@ -11,6 +12,10 @@ const Resume = () => {
     {
       title: "Full Stack Developer",
       file: full_stack_resume,
+    },
+    {
+      title: "Mobile App Developer (Android | iOS)",
+      file: mobile,
     },
   ];
 

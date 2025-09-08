@@ -50,6 +50,7 @@ import draw19 from '../Home/YT Images/sandeep.jpg'
 import SOEN1 from '../Home/SOEN1.png'
 import SOEN2 from '../Home/SOEN2.png'
 import Resume from '../resumes/Resume'
+import Intro from '../Intro/Intro'
 
 
 function Home() {
@@ -191,7 +192,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <p id='intro'><span id='welcome'>"Welcome, I’m Ritesh Gangadhar Pandit</span>,
+          {/* <p id='intro'><span id='welcome'>"Welcome, I’m Ritesh Gangadhar Pandit</span>,
             a passionate <b>AI/ML and Full-Stack Developer</b> with expertise in <b>MERN stack (MongoDB, Express.js, React.js, Node.js), Python,
               and cutting-edge AI technologies</b>. I specialize in building scalable, AI-powered web applications, computer vision solutions,
             and data-driven platforms, leveraging tools like CNN, GAN, Transformers, RESTful APIs, and Webhooks to deliver production-ready projects.
@@ -199,7 +200,8 @@ function Home() {
             to craft user-focused, high-performance solutions.
             I’m a lifelong learner who thrives on innovation—whether it’s developing full-stack platforms, integrating AI models, or exploring new tech trends. Beyond tech, my interests in teaching, art, and continuous exploration fuel unique perspectives, helping me approach challenges with both logic and creativity. My goal is to keep pushing the boundaries of technology while ensuring accessibility, usability, and real-world impact.
             "</p>
-          <h2>"Impossible = I'm Possible"</h2>
+          <h2>"Impossible = I'm Possible"</h2> */}
+          <Intro />
         </div>
         <div id="education" className="heading">
           <h1>Education</h1><hr />
@@ -526,15 +528,15 @@ function Home() {
                       It is also in form of Mobile application using react native at  <a target='_blank' href='https://github.com/R17358/Nirmiti-react-native-app'>Nirmiti app github</a>
                     </li>
                     <li><b>Technologies:</b>React.js, React Native, Redux, Node.js, Express, MongoDB, WebSockets, AI Integration, Git & Github </li>
-                    <li><b>Achievements:</b> 
-                    <ul>
-                      <li>Learn about WebSockets</li>
-                      <li>Learn to parse JSON data by API responses</li>
-                      <li>Learnt To Integrate APIs and AI models</li>
-                      <li>Enhaced Dynamic UI building with React</li>
-                      <li>Implemented Web as well as Mobile app development</li>
-                      <li>Learnt to deploy application on render, vercel and playstore</li>
-                    </ul> </li>
+                    <li><b>Achievements:</b>
+                      <ul>
+                        <li>Learn about WebSockets</li>
+                        <li>Learn to parse JSON data by API responses</li>
+                        <li>Learnt To Integrate APIs and AI models</li>
+                        <li>Enhaced Dynamic UI building with React</li>
+                        <li>Implemented Web as well as Mobile app development</li>
+                        <li>Learnt to deploy application on render, vercel and playstore</li>
+                      </ul> </li>
                   </ul>
                   {see ? <div className="out">
                     <img src={SOEN1} />
@@ -882,15 +884,46 @@ function Home() {
           </div>
         </div>
         <Carousel images={images} />
+
+        <div id="experience" className="heading">
+          <h1>Experience</h1><hr />
+          <div className="experience-item">
+            <h2>Full-stack Development Intern – InternPe</h2>
+            <span className="date">Mar 2023 – May 2023</span>
+            <ul>
+              <li>
+                Developed and deployed <strong>full-stack applications</strong> with <strong>Node.js as main backend</strong> and <strong>Python backend for AI integration</strong>.
+              </li>
+              <li>
+                Built an AI-powered content creation app where users input prompts to:
+                <ul>
+                  <li><strong>Generate lyrics</strong> using AI models</li>
+                  <li><strong>Create images</strong> based on lyrics using AI prompts</li>
+                  <li><strong>Produce songs</strong> from generated lyrics</li>
+                  <li><strong>Generate short videos</strong> combining images, transitions, and background music</li>
+                </ul>
+              </li>
+              <li>
+                Implemented <strong>REST APIs</strong> for seamless communication between Node.js and Python backends.
+              </li>
+              <li>
+                Enhanced application performance and API testing by <strong>40%</strong> using <strong>Postman</strong>.
+              </li>
+              <li>
+                Handled <strong>dynamic data management</strong> efficiently, ensuring smooth AI integration and user experience.
+              </li>
+            </ul>
+          </div>
+        </div>
+
       </div>
-      <div id="experience" className="heading">
-        <h1>Experience</h1><hr />
-        <p>Code Crew | Core Member
-          Organized hackathons, events and conducted workshops reaching over 300+ students.</p>
-      </div>
+
+
 
 
     </div>
+
+
   )
 }
 

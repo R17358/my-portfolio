@@ -1,0 +1,25 @@
+#intro-section {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+#intro span#welcome {
+  font-weight: bold;
+  color: #007BFF;
+}
+
+.typing-text{
+  font-size: 1.1em;
+  color: #1c0909;
+  margin: 15px 0;
+}
+
+.dark-theme .typing-text{
+  font-size: 1.1em;
+  color: white;
+  margin: 15px 0;
+}
+

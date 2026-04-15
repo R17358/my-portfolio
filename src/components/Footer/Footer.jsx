@@ -120,7 +120,7 @@ const Footer = () => {
             <a 
               target="_blank"
               rel="noopener noreferrer" 
-              href="https://www.youtube.com/@shivay984"
+              href="https://www.youtube.com/@shyam-pat"
               className="social-link glass-button"
             >
               <svg className="social-icon" viewBox="0 0 24 24" fill="currentColor">
@@ -132,7 +132,7 @@ const Footer = () => {
             <a 
               target="_blank"
               rel="noopener noreferrer" 
-              href="mailto:ritesh.pandit.lfc@gmail.com"
+              href="mailto:karanstdio1234@gmail.com"
               className="social-link glass-button"
             >
               <svg className="social-icon" viewBox="0 0 24 24" fill="currentColor">
@@ -144,7 +144,7 @@ const Footer = () => {
             <a 
               target="_blank"
               rel="noopener noreferrer" 
-              href="http://instagram.com/"
+              href="http://instagram.com/ritesh.lfc"
               className="social-link glass-button"
             >
               <svg className="social-icon" viewBox="0 0 24 24" fill="currentColor">

@@ -160,11 +160,11 @@ function Home() {
                       </div>
                       <div className="url">
                         <a
-                          href="https://mail.google.com/mail/?view=cm&to=ritesh.pandit.lfc@gmail.com&body=Hi%20Ritesh"
+                          href="https://mail.google.com/mail/?view=cm&to=karanstdio1234@gmail.com&body=Hi%20Ritesh"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          ritesh.pandit.lfc@gmail.com
+                         karanstdio1234@gmail.com
                         </a>
                       </div>
                     </div>
@@ -183,6 +183,23 @@ function Home() {
                         </a>
                       </div>
                     </div>
+
+
+                      <div className="link link-hover-effect">
+                      <div className="icon">
+                        <img src={youtube} alt="YouTube" />
+                      </div>
+                      <div className="url">
+                        <a
+                          href="https://www.youtube.com/@shivay984"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          @shivay984
+                        </a>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
                 
@@ -232,21 +249,39 @@ function Home() {
                         </a>
                       </div>
                     </div>
+
                     
+
                     <div className="link link-hover-effect">
+                      <div className="icon">
+                        <img src="src\components\Home\instagram_logo.png" alt="YouTube" />
+                      </div>
+                      <div className="url">
+                        <a
+                          href="https://www.instagram.com/ritesh.lfc"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          ritesh.lfc
+                        </a>
+                      </div>
+                    </div>
+
+                     <div className="link link-hover-effect">
                       <div className="icon">
                         <img src={youtube} alt="YouTube" />
                       </div>
                       <div className="url">
                         <a
-                          href="https://www.youtube.com/@shivay984"
+                          href="https://www.youtube.com/@shyam-pat"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          @shivay984
+                          @shyam-pat
                         </a>
                       </div>
                     </div>
+
                   </div>
                 </div>
               </div>
@@ -339,6 +374,9 @@ function Home() {
                 <div className="skill skill-badge">
                   <h5>React Native</h5>
                 </div>
+                 <div className="skill skill-badge">
+                  <h5>Streamlit</h5>
+                </div>
                 <div className="skill skill-badge">
                   <h5>HTML5</h5>
                 </div>
@@ -376,6 +414,9 @@ function Home() {
                 <div className="skill skill-badge">
                   <h5>JWT Authentication</h5>
                 </div>
+                 <div className="skill skill-badge">
+                  <h5>O Auth</h5>
+                </div>
                 <div className="skill skill-badge">
                   <h5>MongoDB</h5>
                 </div>
@@ -404,9 +445,7 @@ function Home() {
                 <div className="skill skill-badge">
                   <h5>Postman</h5>
                 </div>
-                <div className="skill skill-badge">
-                  <h5>thunderClient</h5>
-                </div>
+               
                 <div className="skill skill-badge">
                   <h5>VS code</h5>
                 </div>
@@ -470,6 +509,15 @@ function Home() {
                 </div>
                 <div className="skill skill-badge">
                   <h5>Huggingface</h5>
+                </div>
+                  <div className="skill skill-badge">
+                  <h5>LLMs and Langchain</h5>
+                </div>
+                  <div className="skill skill-badge">
+                  <h5>RAG and chatbots</h5>
+                </div>
+                  <div className="skill skill-badge">
+                  <h5>Agentic AI Automation</h5>
                 </div>
               </div>
 
@@ -541,18 +589,34 @@ function Home() {
                     <h5>PageInsighter is a Python based Web Application that provide easy understanding to user about the textual content(Paragraph) Written on the page by visualizing it.</h5>
                     <ul>
                       <li><b>Objective:</b> Sometimes it become difficult and boring to understand text written on page but its images gives better idea. So this app will provide images and summary relevant to context of text so it become easy and interesting to read books.</li>
-                      <li><b>Technologies:</b> Python, Streamlit, GAN model, OOP, Transformer, API Integrations, OCR, OpenCV, Git & Github </li>
+                      <li><b>Technologies:</b> Python, React.js, Streamlit, GAN model, GenAI, REST APIs, LLMs, API Integrations, OCR, OpenCV, Git & Github, langchain </li>
                       <li><b>Achievements:</b> 
                         <ul>
-                          <li>Learnt To Create GUIs in Python</li>
+                          <li>Built Frontend UI using React and streamlit</li>
                           <li>Implemented OOPs concepts</li>
-                          <li>Learnt To Integrate APIs and AI models</li>
-                          <li>Learnt About Python Libraries such as OCR, Numpy</li>
+                          <li>Integrated APIs and AI models into app</li>
+                          <li>implemented Python opencv Libraries such as OCR, Numpy</li>
                         </ul>
                       </li>
                     </ul>
                     {see && (
                       <div className="out output-gallery">
+                        <img src="src\components\Home\outputs\pageinsighter\p1.png" alt="PageInsighter Output 1" />
+                        <img src="src\components\Home\outputs\pageinsighter\p2.jpg" width={15} alt="PageInsighter Output 1" />
+                        <img src="src\components\Home\outputs\pageinsighter\p22.jpg" alt="PageInsighter Output 1" />
+                        <img src="src\components\Home\outputs\pageinsighter\p3.jpg" alt="PageInsighter Output 1" />
+                        <img src="src\components\Home\outputs\pageinsighter\p4.jpg" alt="PageInsighter Output 1" />
+                        <img src="src\components\Home\outputs\pageinsighter\p5.png" alt="PageInsighter Output 1" />
+                        <img src="src\components\Home\outputs\pageinsighter\p6.png" alt="PageInsighter Output 1" />
+                        <img src="src\components\Home\outputs\pageinsighter\p7.jpg" alt="PageInsighter Output 1" />
+                        <img src="src\components\Home\outputs\pageinsighter\p8.jpg" alt="PageInsighter Output 1" />
+                        <img src="src\components\Home\outputs\pageinsighter\p9.jpg" alt="PageInsighter Output 1" />
+                      
+                        <img src="src\components\Home\outputs\pageinsighter\p11.png" alt="PageInsighter Output 1" />
+                        <img src="src\components\Home\outputs\pageinsighter\p12.png" alt="PageInsighter Output 1" />
+                        <img src="src\components\Home\outputs\pageinsighter\p13.jpg" alt="PageInsighter Output 1" />
+
+
                         <img src={out1} alt="PageInsighter Output 1" />
                         <img src={out2} alt="PageInsighter Output 2" />
                       </div>
@@ -562,13 +626,22 @@ function Home() {
                 <div className="right_edu_card">
                   <div className="marks project-links">
                     <a
-                      href="https://github.com/R17358/PageInsighter"
+                      href="https://github.com/R17358/PageInsighter-AI-Text-visualizer-deploy.git"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="icon-link"
                     >
                       <img src={github} alt="github" />
                     </a>
+                    <a
+                      href="https://page-insighter.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="visit-link"
+                    >
+                      Visit
+                    </a>
+                
                   </div>
                   <div>
                     <button onClick={seeOutput} className="btn-modern">
@@ -584,15 +657,15 @@ function Home() {
                     <h3>Nirmiti: AI Software Developer</h3>
                   </div>
                   <div className="college">
-                    <h5>Developed an AI-powered web application that generates complete project code, including file structure and build instructions, based on user prompts.</h5>
+                    <h5>Developed an AI-powered web application that generates complete project code, including file structure and build instructions, based on user prompts. as well as provide group chat feature among developers.</h5>
                     <ul>
                       <li><b>Objective:</b> generates complete project code, including file structure and build instructions, based on user prompts. Implemented collaboration tools, including real-time chat for communication between developers and AI chatbot assistance. Integrated copy, edit, and auto-save features, allowing users to modify code and store changes in a database. Added authentication (signup/login) and role-based access for managing collaborators. It is also in form of Mobile application using react native at <a target='_blank' href='https://github.com/R17358/Nirmiti-react-native-app'>Nirmiti app github</a></li>
-                      <li><b>Technologies:</b> React.js, React Native, Redux, Node.js, Express, MongoDB, WebSockets, AI Integration, Git & Github </li>
+                      <li><b>Technologies:</b> React.js, React Native, Redux, Node.js, REST APIs, Authentication, Express, MongoDB, WebSockets, AI Integration, Git & Github </li>
                       <li><b>Achievements:</b>
                         <ul>
-                          <li>Learn about WebSockets</li>
-                          <li>Learn to parse JSON data by API responses</li>
-                          <li>Learnt To Integrate APIs and AI models</li>
+                          <li>Learn about WebSockets and chat implementation</li>
+                          <li>parsed JSON data by API responses</li>
+                          <li>Integrated APIs and AI models</li>
                           <li>Enhanced Dynamic UI building with React</li>
                           <li>Implemented Web as well as Mobile app development</li>
                           <li>Learnt to deploy application on render, vercel and playstore</li>
@@ -643,7 +716,7 @@ function Home() {
                     <h5>It is a Python based Application that automates various computer related tasks such as browsing, OS control and monitoring by taking input voice commands. also it is able to answer the questions of users. also solves maths problem by scan its image. give translations and summaries</h5>
                     <ul>
                       <li><b>Objective:</b> To automate computer tasks and making smart system that helps in daily and complex works.</li>
-                      <li><b>Technologies:</b> Pyttsx3, SpeechRecognition, web scrapping, Python, Streamlit, OOP, API Integrations, OpenCV, Git & Github</li>
+                      <li><b>Technologies:</b> Pyttsx3, SpeechRecognition, web scrapping, Python, Streamlit, OOP, API Integrations, OpenCV, Git & Github, AI integration</li>
                       <li><b>Achievements:</b> 
                         <ul>
                           <li>Error handling</li>
@@ -683,26 +756,49 @@ function Home() {
               <div className="edu_card glass-card project-card">
                 <div className="left_edu_card">
                   <div className="course">
-                    <h3>E-commerce web Application</h3>
+                    <h3>Multi-vendor E-commerce web Application</h3>
                   </div>
                   <div className="college">
-                    <h5>Full Stack(MERN) web application to buy and sell the products online.</h5>
+                    <h5>Full Stack(MERN) web application to buy and sell the products online by multiple vendors</h5>
                     <ul>
                       <li><b>Objective:</b> To make a Full stack web application to help sellers to sell their products and buyers to buy the products</li>
-                      <li><b>Technologies:</b> React.js, HTML-CSS, JavaScript, MongoDB, Express, Node.js, Stripe, Git & Github</li>
+                      <li><b>Technologies:</b> React.js, HTML-CSS, REST APIs, Authentication and authorization, JavaScript, MongoDB, Express, Node.js, Stripe, Git & Github, cloudinary</li>
                       <li><b>Achievements:</b> 
                         <ul>
-                          <li>Learnt Payment Gateway Integration</li>
-                          <li>Implemented Authentication and Authorization</li>
+                          <li>Integrated payment  gateway such as stripe</li>
+                          <li>Implemented Authentication and Authorization for roles of buyer, sellers and admin</li>
+                          <li>Implemented continue with google like O-Auth</li>
                           <li>Cart Management and State Management</li>
                           <li>RESTful API Development</li>
+                          <li>Distribution of money among seller, platform etc.</li>
                         </ul>
                       </li>
                     </ul>
                     {see && (
                       <div className="out output-gallery">
-                        <img src={ecom1} alt="E-commerce Output 1" />
-                        <img src={ecom2} alt="E-commerce Output 2" />
+                        <img src="src\components\Home\outputs\ecommerce\1.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\2.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\3.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\4.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\5.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\6.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\7.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\8.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\9.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\10.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\11.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\12.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\13.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\14.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\15.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\16.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\17.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\18.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\19.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\20.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\21.png" alt="E-commerce Output 1" />
+                        <img src="src\components\Home\outputs\ecommerce\22.png" alt="E-commerce Output 1" />
+                        
                       </div>
                     )}
                   </div>
@@ -979,7 +1075,7 @@ function Home() {
                   <h5>📚 Teaching</h5>
                 </div>
                 <div className="skill skill-badge hobby-badge">
-                  <h5>🚀 Learning new skills</h5>
+                  <h5>🚀 AI content Creation (Animation)</h5>
                 </div>
               </div>
             </div>

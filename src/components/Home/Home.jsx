@@ -10,6 +10,7 @@ import github from '../Home/github.png'
 import ninja from '../Home/ninja.png'
 import youtube from '../Home/youtube.png'
 import photo from '../Home/Photo.jpg'
+import insta from "../Home/instagram_logo.png"
 import { Link } from 'react-router-dom'
 import out1 from '../Header/textvisout1.png'
 import out2 from '../Header/out2.png'
@@ -254,7 +255,7 @@ function Home() {
 
                     <div className="link link-hover-effect">
                       <div className="icon">
-                        <img src="../Home/instagram_logo.png" alt="Instagram" />
+                        <img src={insta} alt="Instagram" />
                       </div>
                       <div className="url">
                         <a

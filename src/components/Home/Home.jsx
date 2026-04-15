@@ -254,7 +254,7 @@ function Home() {
 
                     <div className="link link-hover-effect">
                       <div className="icon">
-                        <img src="src\components\Home\instagram_logo.png" alt="YouTube" />
+                        <img src="../Home/instagram_logo.png" alt="Instagram" />
                       </div>
                       <div className="url">
                         <a

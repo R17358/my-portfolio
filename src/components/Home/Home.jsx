@@ -53,6 +53,43 @@ import SOEN2 from '../Home/SOEN2.png'
 import Resume from '../resumes/Resume'
 import Intro from '../Intro/Intro'
 
+import p1 from '../Home/outputs/pageinsighter/p1.png'
+import p2 from '../Home/outputs/pageinsighter/p2.jpg'
+import p22 from '../Home/outputs/pageinsighter/p22.jpg'
+import p3 from '../Home/outputs/pageinsighter/p3.jpg'
+import p4 from '../Home/outputs/pageinsighter/p4.jpg'
+import p5 from '../Home/outputs/pageinsighter/p5.png'
+import p6 from '../Home/outputs/pageinsighter/p6.png'
+import p7 from '../Home/outputs/pageinsighter/p7.jpg'
+import p8 from '../Home/outputs/pageinsighter/p8.jpg'
+import p9 from '../Home/outputs/pageinsighter/p9.jpg'
+import p11 from '../Home/outputs/pageinsighter/p11.png'
+import p12 from '../Home/outputs/pageinsighter/p12.png'
+import p13 from '../Home/outputs/pageinsighter/p13.jpg'
+
+import e1 from '../Home/outputs/ecommerce/1.png'
+import e2 from '../Home/outputs/ecommerce/2.png'
+import e3 from '../Home/outputs/ecommerce/3.png'
+import e4 from '../Home/outputs/ecommerce/4.png'
+import e5 from '../Home/outputs/ecommerce/5.png'
+import e6 from '../Home/outputs/ecommerce/6.png'
+import e7 from '../Home/outputs/ecommerce/7.png'
+import e8 from '../Home/outputs/ecommerce/8.png'
+import e9 from '../Home/outputs/ecommerce/9.png'
+import e10 from '../Home/outputs/ecommerce/10.png'
+import e11 from '../Home/outputs/ecommerce/11.png'
+import e12 from '../Home/outputs/ecommerce/12.png'
+import e13 from '../Home/outputs/ecommerce/13.png'
+import e14 from '../Home/outputs/ecommerce/14.png'
+import e15 from '../Home/outputs/ecommerce/15.png'
+import e16 from '../Home/outputs/ecommerce/16.png'
+import e17 from '../Home/outputs/ecommerce/17.png'
+import e18 from '../Home/outputs/ecommerce/18.png'
+import e19 from '../Home/outputs/ecommerce/19.png'
+import e20 from '../Home/outputs/ecommerce/20.png'
+import e21 from '../Home/outputs/ecommerce/21.png'
+import e22 from '../Home/outputs/ecommerce/22.png'
+
 
 function Home() {
 
@@ -60,7 +97,11 @@ function Home() {
   const [more, setMore] = useState(false);
   const [theme, setTheme] = useState('dark');
   const images = [draw0, draw1, draw2, draw3, draw4, draw5, draw18, draw6, draw7, draw8, draw9, draw10, draw11, draw12, draw13, draw14, draw15, draw16, draw17, draw19];
-
+  const images_pageInsighter = [p1, p2, p22, p3, p4, p5, p6, p7, p8, p9, p11, p12, p13];
+  const ecommerceImages = [
+  e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11,
+  e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22
+];
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);
@@ -602,25 +643,10 @@ function Home() {
                     </ul>
                     {see && (
                       <div className="out output-gallery">
-                        <img src="src\components\Home\outputs\pageinsighter\p1.png" alt="PageInsighter Output 1" />
-                        <img src="src\components\Home\outputs\pageinsighter\p2.jpg" width={15} alt="PageInsighter Output 1" />
-                        <img src="src\components\Home\outputs\pageinsighter\p22.jpg" alt="PageInsighter Output 1" />
-                        <img src="src\components\Home\outputs\pageinsighter\p3.jpg" alt="PageInsighter Output 1" />
-                        <img src="src\components\Home\outputs\pageinsighter\p4.jpg" alt="PageInsighter Output 1" />
-                        <img src="src\components\Home\outputs\pageinsighter\p5.png" alt="PageInsighter Output 1" />
-                        <img src="src\components\Home\outputs\pageinsighter\p6.png" alt="PageInsighter Output 1" />
-                        <img src="src\components\Home\outputs\pageinsighter\p7.jpg" alt="PageInsighter Output 1" />
-                        <img src="src\components\Home\outputs\pageinsighter\p8.jpg" alt="PageInsighter Output 1" />
-                        <img src="src\components\Home\outputs\pageinsighter\p9.jpg" alt="PageInsighter Output 1" />
-                      
-                        <img src="src\components\Home\outputs\pageinsighter\p11.png" alt="PageInsighter Output 1" />
-                        <img src="src\components\Home\outputs\pageinsighter\p12.png" alt="PageInsighter Output 1" />
-                        <img src="src\components\Home\outputs\pageinsighter\p13.jpg" alt="PageInsighter Output 1" />
-
-
-                        <img src={out1} alt="PageInsighter Output 1" />
-                        <img src={out2} alt="PageInsighter Output 2" />
-                      </div>
+                      {images_pageInsighter.map((img, index) => (
+                        <img key={index} src={img} alt={`PageInsighter Output ${index + 1}`} />
+                      ))}
+                    </div>
                     )}
                   </div>
                 </div>
@@ -777,29 +803,14 @@ function Home() {
                     </ul>
                     {see && (
                       <div className="out output-gallery">
-                        <img src="src\components\Home\outputs\ecommerce\1.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\2.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\3.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\4.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\5.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\6.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\7.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\8.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\9.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\10.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\11.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\12.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\13.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\14.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\15.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\16.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\17.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\18.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\19.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\20.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\21.png" alt="E-commerce Output 1" />
-                        <img src="src\components\Home\outputs\ecommerce\22.png" alt="E-commerce Output 1" />
-                        
+                        {ecommerceImages.map((img, index) => (
+                          <img 
+                            key={index} 
+                            src={img} 
+                            alt={`E-commerce Output ${index + 1}`} 
+                            loading="lazy"
+                          />
+                        ))}
                       </div>
                     )}
                   </div>

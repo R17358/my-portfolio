@@ -54,9 +54,9 @@ window.addEventListener("load", function () {
 
   function loadApp(type) {
     const urls = {
-      chat: "https://your-chat-app.vercel.app",
-      shop: "https://your-shop-app.vercel.app",
-      docs: "https://your-doc-app.vercel.app",
+      chat: "https://nirmiti.vercel.app",
+      shop: "https://hindustan-zone.vercel.app",
+      docs: "https://page-insighter.vercel.app",
     };
 
     iframe.src = urls[type];

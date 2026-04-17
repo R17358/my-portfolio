@@ -45,9 +45,9 @@ window.addEventListener("load", function () {
   });
 
   menu.innerHTML = `
-    <div data-app="chat">🤖 Chat</div>
-    <div data-app="shop">🛒 Shop</div>
-    <div data-app="docs">📄 Docs</div>
+    <div data-app="chat">🤖 Nirmiti</div>
+    <div data-app="shop">🛒 E-Shop</div>
+    <div data-app="docs">📄 PageInsighter</div>
   `;
 
   document.body.appendChild(menu);

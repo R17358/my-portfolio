@@ -49,7 +49,7 @@ function Header() {
       <div className="header-brand">
         <div className="brand-text">
           <span className="brand-name">Ritesh Pandit</span>
-          <span className="brand-tagline">AI/ML Developer</span>
+          <span className="brand-tagline">AI/ML Full stack Developer</span>
         </div>
       </div>
 
